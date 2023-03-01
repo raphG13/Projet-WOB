@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+header{
+    height: 100vh;
+    width:100vw;
+    background-image: url(./img/6818093-vol-en-avion-au-coucher-du-soleil-gratuit-photo.jpg);
+    background-size: cover;
+}
+
+
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.boarding-text{
+    letter-spacing: 40px!important;
+    font-size:xx-large;
+    opacity: 2;
+    
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar img.logo{
+    width: 50px;
+}
+
+
+.navbar .nav-links ul{
+    display: flex;
+
+}
+
+.navbar .nav-links ul li {
+    margin: 250px 400px;
+}
+
+.navbar .nav-links ul li.active a{
+    color: rgb(237, 14, 14);
+    font-weight: 600;
+}
+
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    width: 35px;
+}
+
+
+
+
+
+@media screen and (max-width:900px) {
+
+    .navbar{
+        padding:0;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 40px;
+        left: 30px;
+    }
+    .navbar .menu-hamburger{
+        display: block;
+    }
+    .nav-links{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(221, 211, 211, 0.255);
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-links ul li {
+        margin: 25px 0;
+        font-size: 1.2em;
+        
+}
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+’
+.fond{
+    height: 200px;
+    width: 2200px;
+    background-image: url(img/Passenger_Airplanes_Evening_Flight_Sun_531236_1280x774.jpg);
+    background-repeat: no-repeat;
+    background-position: 60% 60%;
+    background-size: cover; 
+}
+
+.spacingLetter{
+    letter-spacing: 2px;
+    color: #CBAC6A !important;
+    text-decoration: black;
+}
+
+.welcome{
+    margin-top: 50px;
+    letter-spacing: 20px;
+}
+
+h3{
+    letter-spacing: 20px;
+}
+
+.histoire{
+    transition: margin-right 2s, color 1s;
+}
+
+.tiretAvion{
+    background:linear-gradient(.25turn,#D4C792,#444444);
+    height: 5px;
+    
+    margin-top: 75px;
+}
+
+.iconeTiretAvion {
+    content: url(img/icon-avion-cote.webp);
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;  
+}
+
+.imgCard{
+    transition: transform .1s;
+    }
+
+.imgCard:hover{
+     -ms-transform: scale(1.5);
+     -webkit-transform: scale(1.5); 
+     transform: scale(1.1);
+        }
+
+ #suiviVol{
+    height: 600px;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+ }
+
+ .apiMeteo{
+    height: 400px;
+    width: 1140px;
+ }
+
+#map {
+    height: 400px;
+    background: #d6d6d6 !important;   
+}
+
+.footer{
+    width:100%;
+    height: 200px;
+    background-image: url(img/Passenger_Airplanes_Evening_Flight_Sun_531236_1280x774.jpg);
+    background-repeat: no-repeat;
+    background-position:100% 94%;
+    background-size: cover;
+}
+
+ .band{
+    height: 245px;
+ }
+
+ iframe {
+    width: 94%; 
+}
+
+.form-control::placeholder{
+    color: white !important;
+}
+
+table.stick{
+    position: relative;
+}
+
+table.stick .stick-child{
+    position: fixed;
+    top: 300px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
